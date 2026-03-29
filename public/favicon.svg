@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="none" aria-hidden="true">
+  <defs>
+    <linearGradient id="rocketBody" x1="8" y1="2" x2="24" y2="28" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#c084fc" />
+      <stop offset="0.45" stop-color="#6b21a8" />
+      <stop offset="1" stop-color="#06b6d4" />
+    </linearGradient>
+    <linearGradient id="exhaust" x1="16" y1="22" x2="16" y2="31">
+      <stop stop-color="#67e8f9" />
+      <stop offset="1" stop-color="#06b6d4" stop-opacity="0.15" />
+    </linearGradient>
+  </defs>
+  <!-- fins -->
+  <path fill="#4c1d95" d="M6 18 4 26l6-4-2-2.5z" />
+  <path fill="#4c1d95" d="M26 18l2 8-6-4 2-2.5z" />
+  <!-- fuselage -->
+  <path
+    fill="url(#rocketBody)"
+    d="M16 2c.8 4.2 3.2 8.8 4 13.2V22l-1.2 4-.6-2.2h-4.4l-.6 2.2L12 22v-6.8c.8-4.4 3.2-9 4-13.2Z"
+  />
+  <!-- window -->
+  <ellipse cx="16" cy="12" rx="2.8" ry="3.2" fill="#fff" fill-opacity="0.35" />
+  <ellipse cx="15.2" cy="11.2" rx="1" ry="1.1" fill="#fff" fill-opacity="0.5" />
+  <!-- flame -->
+  <path fill="url(#exhaust)" d="M12.5 24q3.5 7.5 7 0Q16 28.5 12.5 24Z" />
+</svg>
